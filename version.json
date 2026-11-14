@@ -1,8 +1,1 @@
-{
-  "apkSha256": "b57fe161db1c101bf6fbaf21020983696c455f39d4c5a93b837bcfadb1360a06",
-  "apkSize": 9621145,
-  "apkUrl": "https://github.com/mwhiteparrot/fasix-plus-updates/releases/download/v3.9.3/FasiXPlus-v3.9.3.apk",
-  "notes": "Fixes the crash-log screen: its Share / Continue buttons could hide under the phone's navigation bar, leaving no way forward. The crash viewer now sits clear of the system bars and appears only once per crash record. The main shell, Settings and the other screens got the same system-bar spacing fix. Includes everything from v3.9.2 (the crash-on-open fix) and v3.9.1 (the new launcher icon).",
-  "versionCode": 84,
-  "versionName": "3.9.3"
-}
+{"apkSha256":"2d601b70743d015f2c507db00e83ae2b427a124657f2c96b49615616153c99a4","apkSize":9621145,"apkUrl":"https://github.com/mwhiteparrot/fasix-plus-updates/releases/download/v3.9.4/FasiXPlus-v3.9.4.apk","notes":"Urgent fix: the WireGuard tunnel could come up away from home without ever connecting, and silently swallow the phone's internet (fine on Wi-Fi, dead on cellular). The tunnel now disconnects itself within about 15 seconds if it cannot connect, waits before retrying instead of flapping, and only auto-connects once pairing is complete. Everything else is unchanged from v3.9.3.","versionCode":85,"versionName":"3.9.4"}
